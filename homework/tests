@@ -7,6 +7,13 @@ Note: pay attention to names of test methods, and make sure each method tests on
 
 
 Homework after tests-practice:
-Get to know what is test coverage (https://pytest-cov.readthedocs.io/en/latest/)
+1. Experiment with pytest run - run it over all the lectures/tests package, run some particular test module,
+run some test class/test case
+2. Get to know what is test coverage (https://pytest-cov.readthedocs.io/en/latest/)
 and check code coverage for your tests - try to increase the coverage for your unit tests as much as possible.
 https://www.simform.com/test-coverage/ - if you want to know more about test coverage.
+3. Add all the needed tests for hen_house.hen_class.HenHouse (you can add even more than described)
+with unittest syntax to test_hen_class.py
+If you want more challenge, add test_hen_class_pytest.py where no unittest.TestCase should be used,
+just pure asserts and pytest functions. (run it with pytest then)
+Check tests coverage.
