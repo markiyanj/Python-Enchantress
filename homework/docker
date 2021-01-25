@@ -1,0 +1,7 @@
+1. Create / Find a simple Flask application and setup Dockerfile for it.
+Create your own image and try to run the container and interact with it by using your browser.
+Don't forget to pass the valid ports by using -p. (e.g .: -p 8080: 8080)
+Try to use such commands: docker run (with -d, -it, or without), stop, attach, inspect, logs
+
+2*. Create a docker-compose file for the app you create above but with interacting with some DataBase
+ and try to run it and do everything mentioned in the first step.
