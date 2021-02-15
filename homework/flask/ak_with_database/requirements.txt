@@ -1,0 +1,9 @@
+attrs==20.3.0
+iniconfig==1.1.1
+-e git+git@github.com:Cursoreducation/Python-Enchantress.git@244ab2aca0b07f6fd391075230e0f39b2b1ea5b2#egg=Our_Store&subdirectory=homework/flask/ak_with_database
+packaging==20.9
+pluggy==0.13.1
+py==1.10.0
+pyparsing==2.4.7
+pytest==6.2.2
+toml==0.10.2
