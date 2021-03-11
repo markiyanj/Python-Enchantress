@@ -1,4 +1,10 @@
 from our_store.models import User
+from flask import g, current_app
+
+
+def get_db():
+    config = current_app.config
+
 
 
 class UserAdapter:
